@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    background-color: #0C0E1866;
+}
+
+header {
+    padding: 0 30px;
+    background-color: #0C0E18;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container div {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    color: white;
+}
+
+select {
+    background-color: #0C0E18;
+    border: none;
+    width: 150px;
+    color: white;
+    font-style: 18px;
+    padding: 10px;
+    box-shadow: 0px 0px 11px 0px #FFFFFF;
+}
+
+select option {
+    box-shadow: 0px 0px 11px 0px #FFFFFF;
+}
+
+.btn {
+    background-color: #0C0E18;
+    color: #FFFFFF;
+    font-style: 18px;
+    padding: 10px 60px;
+    border-radius: 30px;
+    border: none;
+}
+
+.btn:hover {
+    background: #BFAFF2;
+}
+
+main {
+    background-color: #101220;
+}
+
+.hero {
+    padding-top: 350px;
+}
+
+.card {
+    width: 325px;
+    height: 240px;
+    text-align: center;
+    color: white;
+    background-color: #232028;
+    position: relative;
+    padding-top: 50px;
+    border-radius: 20px;
+    transition: 2s;
+}
+
+.gojo {
+    position: absolute;
+    top: -300px;
+    left: 30px;
+}
+
+.ona {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.hover {
+    width: 325px;
+    background-color: black;
+    position: absolute;
+    border-radius: 20px;
+    top: -300px;
+    left: -30px;
+    display: none;
+    height: 600px;
+}
+
+.hover img {
+    width: 325px;
+}
+
+.card:hover .hover {
+    display: block;
+    color: rgb(255, 102, 0);
+    background-color: aqua;
+}
+
+footer {
+    padding: 0 30px;
+    background-color: #0C0E18;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 900px;
+    height: 50px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+}
+
+h4:hover {
+    color: orange;
+    transform: scale(1.1);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: orange;
+    transform: scale(1.1);
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.n {
+    height: 100px;
+    background-color: #101220;
+}
+
+.hover p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 16.8px;
+}
